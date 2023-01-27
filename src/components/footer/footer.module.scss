@@ -1,0 +1,75 @@
+.footer {
+    background: #363130;
+    padding: 50px;
+}
+
+.container {
+    width: 1580px;
+    margin: auto;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.darkLogo {
+    width: 284px;
+    height: 57px;
+    margin-bottom: 50px;
+}
+
+.orderButton {
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #363130;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 22px 57px;
+
+    &:hover {
+        transition: all 0.2s;
+        background: #534a48;
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLinks {
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footerText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.logoWhite {
+    width: 240px;
+    height: 61px;
+    transform: translateX(-4px);
+}

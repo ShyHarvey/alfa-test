@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+    margin-bottom: 36px;
+}
+
+.mode {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.maket {
+    display: flex;
+    align-items: center;
+
+    img {
+        display: inline-block;
+    }
+
+    p {
+        display: inline-block;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+.telephoneIcon {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    border: solid 1.5px #319F1C;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px #319F1C;
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #319F1C;
+        top: 75%;
+        left: 75%;
+    }
+}
+
+.boxRow {
+    display: flex;
+    direction: row;
+}
+
+.contacts {
+    a {
+        color: #363130;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+    }
+}
+
+.contactItem {
+    margin: 0 9px;
+}
+
+.boxContacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.orderButton {
+    border: none;
+    width: 238px;
+    height: 64px;
+    left: 1512px;
+    top: 27px;
+    color: white;
+    background: #319F1C;
+    box-shadow: 0px 4px 5px #319F1C;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+        transition: all 0.3s;
+        background: #4acc30;
+        box-shadow: 0px 6px 7px #4acc30;
+    }
+}
